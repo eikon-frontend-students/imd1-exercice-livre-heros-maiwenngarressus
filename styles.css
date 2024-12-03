@@ -1,10 +1,54 @@
 body {
-  background-color: #1a1a1a;
   color: white;
+  background-color: #1a1a1a;
 }
 
 a {
   color: white;
+  font-size: 32px;
+  color: #fdefdd;
+  text-decoration: none;
 }
 
-/* 🦊 Compléter les styles de votre teaser  */
+main {
+  max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  padding: 15px;
+  background-color: #12403a;
+  color: #fdefdd;
+  font-size: 15px;
+  font-family: helvetica;
+}
+
+img {
+  width: 250px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.paragraphe {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 5px;
+}
+
+p {
+  margin: 0px;
+  margin-top: 5px;
+}
+.nom {
+  margin-top: 60px;
+}
